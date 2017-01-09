@@ -7,5 +7,6 @@ target 'NewUI' do
 
   # Pods for NewUI
   pod 'ESTabBarController'
+  pod 'SVProgressHUD'
 
 end

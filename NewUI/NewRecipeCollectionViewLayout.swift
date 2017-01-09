@@ -23,10 +23,7 @@ class NewRecipeCollectionViewLayout: UICollectionViewLayout {
         
         // 全体の幅
         let allWidth = DeviceSize.screenWidth()
-        
-        // １番目のセルの幅
-        let topWidth = DeviceSize.screenWidth()
-        
+                
         // ２番目以降のセルの幅
         let otherWidth = DeviceSize.screenWidth() / 2
         

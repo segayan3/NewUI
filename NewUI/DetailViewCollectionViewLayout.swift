@@ -24,7 +24,7 @@ class DetailViewCollectionViewLayout: UICollectionViewLayout {
         let allWidth = DeviceSize.screenWidth()
         
         // 座標
-        var x: CGFloat = 0
+        let x: CGFloat = 0
         var y: CGFloat = 0
         
         // セルを配置

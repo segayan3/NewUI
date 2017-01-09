@@ -45,7 +45,6 @@
 		84E787E91E1FC16A00A6F28A /* IMG_6182.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84E787E51E1FC16A00A6F28A /* IMG_6182.MOV */; };
 		84E787EA1E1FC16A00A6F28A /* IMG_9333.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84E787E61E1FC16A00A6F28A /* IMG_9333.MOV */; };
 		84E787EC1E1FC22900A6F28A /* TopNewRecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E787EB1E1FC22900A6F28A /* TopNewRecipeCollectionViewCell.swift */; };
-		84E787EE1E1FCE6400A6F28A /* TopRecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E787ED1E1FCE6400A6F28A /* TopRecipeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,7 +89,6 @@
 		84E787E51E1FC16A00A6F28A /* IMG_6182.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_6182.MOV; sourceTree = "<group>"; };
 		84E787E61E1FC16A00A6F28A /* IMG_9333.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_9333.MOV; sourceTree = "<group>"; };
 		84E787EB1E1FC22900A6F28A /* TopNewRecipeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopNewRecipeCollectionViewCell.swift; sourceTree = "<group>"; };
-		84E787ED1E1FCE6400A6F28A /* TopRecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRecipeDetailViewController.swift; sourceTree = "<group>"; };
 		9870508058701462EA473F57 /* Pods-NewUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewUI/Pods-NewUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -219,7 +217,6 @@
 			isa = PBXGroup;
 			children = (
 				84E787D11E11712500A6F28A /* C3DetailViewController.swift */,
-				84E787ED1E1FCE6400A6F28A /* TopRecipeDetailViewController.swift */,
 				84E787D41E1D3C6600A6F28A /* ContainerView */,
 			);
 			name = DetailControllers;
@@ -370,7 +367,6 @@
 				84E787DC1E1FA7D700A6F28A /* DetailViewCollectionViewLayout.swift in Sources */,
 				84E787EC1E1FC22900A6F28A /* TopNewRecipeCollectionViewCell.swift in Sources */,
 				84E787CB1E1003FD00A6F28A /* C3CollectionViewCell.swift in Sources */,
-				84E787EE1E1FCE6400A6F28A /* TopRecipeDetailViewController.swift in Sources */,
 				84E787B01E0E3F1500A6F28A /* DeviceSize.swift in Sources */,
 				84E787D61E1D3CA600A6F28A /* C3LikeViewController.swift in Sources */,
 				84E787B41E0E466800A6F28A /* MenuNameDefinition.swift in Sources */,

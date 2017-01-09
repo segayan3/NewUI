@@ -106,8 +106,9 @@ class Container1: UIViewController, UICollectionViewDataSource, UICollectionView
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         // モーダルを表示
-        let topDetailView = self.storyboard?.instantiateViewController(withIdentifier: "TopRecipeDetail") as! TopRecipeDetailViewController
-        self.present(topDetailView!, animated: true, completion: nil)
+        let detailView = self.storyboard?.instantiateViewController(withIdentifier: "C3Detail") as! C3DetailViewController
+        detailView.index = indexPath.row
+        self.present(detailView, animated: true, completion: nil)
     }
     
     // 動画の終了を検知してリピート再生するメソッド

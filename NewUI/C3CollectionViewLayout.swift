@@ -75,7 +75,7 @@ class C3CollectionViewLayout: UICollectionViewLayout {
         let allWidth: CGFloat = CGFloat(DeviceSize.screenWidth())
         
         // 全体の高さ
-        let allHeight = CGFloat(collectionView!.numberOfItems(inSection: 0)) * cellHeight
+        let allHeight = CGFloat(collectionView!.numberOfItems(inSection: 0)) * cellHeight / 2 + 40 // numberOFItems(inSection:0)で対象のコレクションビューのデータ数を取得している
         
         return CGSize(width: allWidth, height: allHeight)
     }

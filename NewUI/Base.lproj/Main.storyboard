@@ -205,12 +205,6 @@
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWO-ft-DYE">
                                                     <rect key="frame" x="0.0" y="0.0" width="233" height="244"/>
-                                                    <subviews>
-                                                        <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ub-m8-tbF">
-                                                            <rect key="frame" x="0.0" y="0.0" width="378" height="556"/>
-                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                                        </containerView>
-                                                    </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
                                             </subviews>
@@ -227,7 +221,7 @@
                                         </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="otherContentsCell" id="MR5-AN-fF3" customClass="NewRecipeCollectionViewCell" customModule="NewUI" customModuleProvider="target">
-                                        <rect key="frame" x="243" y="82" width="84" height="81"/>
+                                        <rect key="frame" x="243" y="81.5" width="84" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="84" height="81"/>
@@ -268,24 +262,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xDl-IK-YiW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-55.200000000000003" y="771.36431784107947"/>
-        </scene>
-        <!--Top Recipe Detail View Controller-->
-        <scene sceneID="wZC-uL-U3z">
-            <objects>
-                <viewController storyboardIdentifier="TopRecipeDetail" id="mm9-dW-5B2" customClass="TopRecipeDetailViewController" customModule="NewUI" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YTP-lh-Oq8"/>
-                        <viewControllerLayoutGuide type="bottom" id="KSS-Jn-X9b"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8XF-QA-N3M">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J1K-ZU-7Pv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-52" y="1385"/>
         </scene>
         <!--Container2-->
         <scene sceneID="liY-0G-CQt">
